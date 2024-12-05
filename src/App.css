@@ -81,10 +81,7 @@ body {
 }
  
 .grid-item {
-  background: linear-gradient(to right, #115d8b, #053766);
-  /* background: linear-gradient(to right, #132ca0, #1e90ff);  */
-
- 
+  background: linear-gradient(to right, #5d0076, #3e1087);
   color: #fff;
   padding: 8px; /* Reduced padding */
   border-radius: 8px;
@@ -98,10 +95,7 @@ body {
  
 .grid-item:hover {
   transform: scale(1.05);
-  /* background: linear-gradient(to right, #1a1a1a, #2b0b5e); */
-  background: linear-gradient(to right, #111663, #115fad); /* Stronger gradient from dark cyan to vibrant sea blue */
-
- 
+  background: linear-gradient(to right, #1a1a1a, #2b0b5e);
   border-color: #fff;
 }
  
