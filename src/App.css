@@ -1,0 +1,161 @@
+/* General App Styles */
+/* General App Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  height: 100%; /* Ensures the body expands with content */
+  overflow: auto; /* Allow scrolling */
+}
+ 
+.app {
+  background-image: url('./assets/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto; /* Allow height to expand with content */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 10px 20px; /* Ensure padding at the bottom */
+  box-sizing: border-box;
+}
+
+ 
+/* Header Styles */
+.header-container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px 15px; /* Reduced padding for compactness */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ 
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 5px; /* Reduced padding */
+  box-sizing: border-box;
+}
+ 
+.logo {
+  height: 50px; /* Smaller logo size */
+  width: auto;
+}
+ 
+.heading {
+  font-size: 1.8rem; /* Smaller font size */
+  color: #fff;
+  text-shadow: 1px 2px 3px #c6c7c8;
+  font-weight: 600;
+  text-align: center;
+  margin: 5px 0 0;
+  width: 100%;
+}
+ 
+/* Card Container Styling */
+.card-container {
+  width: calc(100% - 40px);
+  padding: 10px 10px;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  border: 1px #fff solid;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 10px;
+  overflow-y: auto; /* Allow scrolling inside card */
+}
+
+ 
+.section-heading {
+  font-size: 1.4rem; /* Smaller font size */
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 15px; /* Reduced margin */
+  text-align: center;
+}
+ 
+.grid-item {
+  background: linear-gradient(to right, #5d0076, #3e1087);
+  color: #fff;
+  padding: 8px; /* Reduced padding */
+  border-radius: 8px;
+  text-align: center;
+  font-size: 0.8rem; /* Smaller font size */
+  font-weight: 600;
+  cursor: pointer;
+  border: 2px solid #fff;
+  transition: transform 0.2s, background 0.2s, border-color 0.2s;
+}
+ 
+.grid-item:hover {
+  transform: scale(1.05);
+  background: linear-gradient(to right, #1a1a1a, #2b0b5e);
+  border-color: #fff;
+}
+ 
+/* Card Links */
+.card-link {
+  text-decoration: none;
+}
+ 
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .logo-container {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 0 10px; /* Adjusted padding */
+  }
+ 
+  .logo {
+    height: 40px; /* Further reduced logo size */
+  }
+ 
+  .heading {
+    font-size: 1.5rem; /* Smaller font size */
+    margin-top: 15px;
+  }
+ 
+  .card-container {
+    padding: 10px; /* Adjusted padding */
+  }
+ 
+  .section-heading {
+    font-size: 1.2rem; /* Smaller font size */
+  }
+}
+ 
+@media (max-width: 480px) {
+  .logo-container {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 0 5px; /* Reduced padding */
+  }
+ 
+  .logo {
+    height: 30px; /* Smaller logo */
+  }
+ 
+  .heading {
+    font-size: 1.2rem; /* Further reduced font size */
+    margin-top: 10px;
+  }
+ 
+  .card-container {
+    padding: 8px;
+  }
+ 
+  .grid-item {
+    font-size: 0.7rem; /* Smaller font size */
+    padding: 6px; /* Reduced padding */
+  }
+ 
+  .section-heading {
+    font-size: 1rem; /* Smaller font size */
+  }
+}
