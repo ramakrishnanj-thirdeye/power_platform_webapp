@@ -10,9 +10,9 @@ function App() {
     { id: 2, label: "Admin App", link: "https://regale.cloud/thirdeye-data/play/3822/power-platform-accelerate-innovation-with-ai-in-low-code-regional-manager-portal#/0/0" },
     { id: 3, label: "App Lifecycle Management", link: "https://regale.cloud/thirdeye-data/play/3832/power-platform-accelerate-innovation-with-ai-in-low-code-alm#/0/0" },
     { id: 4, label: "Supplier Portal", link: "https://regale.cloud/thirdeye-data/play/3833/powerplatform-accelerate-innvoation-with-ai-in-low-code-supplier-portal-power-pa#/0/0" },
-    { id: 5, label: " Invoice Processing", link: "https://regale.cloud/thirdeye-data/play/3824/power-platform-accelerate-innovation-with-ai-in-low-code-supplier-portal-invoice#/0/0" },
-    { id: 6, label: "Ability To Ask Question", link: "https://regale.cloud/thirdeye-data/play/3834/power-platform-accelerate-innovation-with-ai-in-low-code-copilot-studio-maker#/0/0" },
-    { id: 7, label: "Power Automates", link: "https://regale.cloud/thirdeye-data/play/3823/power-platform-accelerate-innovation-with-ai-in-low-code-power-automate-backend-#/0/0" },
+    { id: 5, label: "Invoice Processing", link: "https://regale.cloud/thirdeye-data/play/3824/power-platform-accelerate-innovation-with-ai-in-low-code-supplier-portal-invoice#/0/0" },
+    { id: 6, label: "Ability to Ask Questions", link: "https://regale.cloud/thirdeye-data/play/3834/power-platform-accelerate-innovation-with-ai-in-low-code-copilot-studio-maker#/0/0" },
+    { id: 7, label: "Power Automate", link: "https://regale.cloud/thirdeye-data/play/3823/power-platform-accelerate-innovation-with-ai-in-low-code-power-automate-backend-#/0/0" },
   ];
 
   const videos = [
@@ -21,8 +21,8 @@ function App() {
     { id: 3, label: "App Lifecycle Management", link: "https://stdemoassets.blob.core.windows.net/videos/L100/3.%20Microsoft%20Power%20Platform-%20ALM.mp4" },
     { id: 4, label: "Supplier Portal", link: "https://stdemoassets.blob.core.windows.net/videos/L100/4.%20Microsoft%20Power%20Platform-Supplier%20Portal.mp4" },
     { id: 5, label: "Invoice Processing", link: "https://stdemoassets.blob.core.windows.net/videos/L100/5.%20Microsoft%20Power%20Platform-Invoice%20processing.mp4" },
-    { id: 6, label: "Ability To Ask Question", link: "https://stdemoassets.blob.core.windows.net/videos/L100/6.%20Microsoft%20Power%20Platform-Sales%20Video.mp4" },
-    { id: 7, label: "Power Automates", link: "https://stdemoassets.blob.core.windows.net/videos/L100/7.%20Microsoft%20Power%20Platform-Finale%20Video.mp4" },
+    { id: 6, label: "Ability To Ask Questions", link: "https://stdemoassets.blob.core.windows.net/videos/L100/6.%20Microsoft%20Power%20Platform-Sales%20Video.mp4" },
+    { id: 7, label: "Power Automate", link: "https://stdemoassets.blob.core.windows.net/videos/L100/7.%20Microsoft%20Power%20Platform-Finale%20Video.mp4" },
   ];
 
   return (
