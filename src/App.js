@@ -9,7 +9,7 @@ function App() {
     { id: 1, label: "Enhance HR Activity", link: "https://regale.cloud/thirdeye-data/play/3794/power-platform-employee-onboarding-user#/0/0" },
     { id: 2, label: "Improve Efficiency In IT", link: "https://regale.cloud/thirdeye-data/play/3773/power-platform-improve-efficiencies-in-it#/0/0" },
     { id: 3, label: "Data Security", link: "https://regale.cloud/thirdeye-data/play/3774/power-platform-data-security-and-privacy-user-end#/0/0" },
-    { id: 4, label: "M365 Licence Assignment", link: "https://regale.cloud/thirdeye-data/play/3792/power-platform-m365-licence-assignment-maker#/0/0" },
+    { id: 4, label: "M365 License Assignment", link: "https://regale.cloud/thirdeye-data/play/3792/power-platform-m365-licence-assignment-maker#/0/0" },
     { id: 5, label: "Copilot Studio", link: "https://regale.cloud/thirdeye-data/play/3777/power-platform-copilot-studio-maker#/0/0" },
     { id: 6, label: "Employee Welcome Site", link: "https://regale.cloud/thirdeye-data/play/3788/power-platform-employee-welcome-site-power-page-maker#/0/0" },
     { id: 7, label: "Reduce Cost Risk", link: "https://regale.cloud/thirdeye-data/play/3776/power-platform-reduce-cost-and-risk-maker#/0/0" },
