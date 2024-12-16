@@ -20,15 +20,15 @@ function App() {
   ];
 
   const videos = [
-    { id: 1, label: "Data Flows and Power Automate", link: "https://stdemoassets.blob.core.windows.net/videos/L400/1.%20Dataflows%20and%20power%20automate.mp4" },
-    { id: 2, label: "LOB Modernization App", link: "https://stdemoassets.blob.core.windows.net/videos/L400/2.%20LOB%20app%20modernization.mp4" },
+    { id: 1, label: "Data Flows and Power Automate", link: "https://stdemoassets.blob.core.windows.net/videos/L400/1.%20Dataflows%20and%20Power%20Automate.mp4" },
+    { id: 2, label: "LOB Modernization App", link: "https://stdemoassets.blob.core.windows.net/videos/L400/2.%20LOB%20App%20modernization.mp4" },
     { id: 3, label: "App Lifecycle Management", link: "https://stdemoassets.blob.core.windows.net/videos/L400/3.%20ALM+ADO.mp4" },
-    { id: 4, label: "Customizations", link: "https://stdemoassets.blob.core.windows.net/videos/L400/4.%20Customization-App%20&%20Data.mp4" },
-    { id: 5, label: "AI Builder", link: "https://stdemoassets.blob.core.windows.net/videos/L400/5.%20Microsoft%20Power%20Platform-Invoice%20processing.mp4" },
-    { id: 6, label: "Cancelled Checks Verification", link: "https://stdemoassets.blob.core.windows.net/videos/L400/6.%20AI%20builder%20Cancelled%20Cheque%20processing.mp4" },
-    { id: 7, label: "Performance Scoring", link: "https://stdemoassets.blob.core.windows.net/videos/L400/7.%20Sentiment%20Analysis%20-%20L400%20Demo%20-%20Power%20Platform.mp4" },
-    { id: 8, label: "Sales Video", link: "https://stdemoassets.blob.core.windows.net/videos/L400/8.%20Sales%20Video%20-%20L400%20-%20Power%20Platform.mp4" },
-    { id: 9, label: "Finale Video", link: "https://stdemoassets.blob.core.windows.net/videos/L400/9.%20Finale%20Video%20-%20L400%20-%20Power%20Platform.mp4" },
+    { id: 4, label: "Customizations", link: "https://stdemoassets.blob.core.windows.net/videos/L400/4.%20Customization%20App%20+%20Data%20video.mp4" },
+    { id: 5, label: "AI Builder", link: "https://stdemoassets.blob.core.windows.net/videos/L400/5%20AI-Builder-%20Invoice%20processing.mp4" },
+    { id: 6, label: "Cancelled Checks Verification", link: "https://stdemoassets.blob.core.windows.net/videos/L400/6.%20AI%20Builder-%20Cancelled%20Check%20processing.mp4" },
+    { id: 7, label: "Performance Scoring", link: "https://stdemoassets.blob.core.windows.net/videos/L400/7.%20AI%20prompt%20sentiment%20analysis%20and%20performance%20scoring.mp4" },
+    { id: 8, label: "Sales Video", link: "https://stdemoassets.blob.core.windows.net/videos/L400/8.%20Sales%20video.mp4" },
+    { id: 9, label: "Finale Video", link: "https://stdemoassets.blob.core.windows.net/videos/L400/9.%20Finale%20video.mp4" },
   ];
 
   return (
